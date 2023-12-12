@@ -1,0 +1,267 @@
+/* Global CSS */
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  h1 {
+    font-size: 50px;
+    line-height: 30px;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  /* Menu section */
+  .top-menu {
+    display: flex;
+  }
+  
+  .logo {
+    width: 40%;
+    padding-left: 5%;
+  }
+  
+  .navbar {
+    width: 60%;
+    padding-left: 20%;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+    padding: 50px 30px;
+  }
+  
+  .navbar li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .color-text {
+    color: orange;
+  }
+  
+  /* Hero section */
+  .hero-section {
+    display: flex;
+    padding-left: 6%;
+    padding-right: 3%;
+  }
+  
+  .sub-hero:nth-child(1) {
+    margin-top: 150px;
+  }
+  
+  .sub-hero {
+    width: 50%;
+  }
+  
+  .sub-hero p {
+    margin-bottom: 70px;
+    font-size: 20px;
+  }
+  
+  .order-link {
+    background-image: linear-gradient(to right, orange, tomato);
+    text-decoration: none;
+    padding: 20px 32px;
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  /* About section */
+  .about-section {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding: 130px 0 0 0;
+  }
+  
+  .sub-about {
+    width: 50%;
+  }
+  
+  .sub-about h2 {
+    color: gray;
+  }
+  
+  .sub-about img {
+    width: 45%;
+    padding-left: 30%;
+    margin-top: -110px;
+  }
+  
+  .sub-about p {
+    font-size: 20px;
+    margin-bottom: 80px;
+    color: gray;
+  }
+  
+  .sub-about:nth-child(2) {
+    padding-right: 6%;
+  }
+  
+  /* Recipe Section */
+  
+  .my-recipe h2 {
+    color: gray;
+    text-align: center;
+  }
+  
+  .my-recipe {
+    padding-bottom: 100px;
+  }
+  
+  .recipe-description {
+    color: gray;
+    text-align: center;
+    padding: 0 292px;
+  }
+  
+  .recipe-box {
+    display: flex;
+  }
+  
+  .sub-box {
+    box-shadow: 0px 0px 15px gray;
+    padding: 20px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 14px;
+    width: 33.33%;
+    margin-top: 2%;
+  }
+  
+  .sub-box img {
+    width: 100%;
+  }
+  
+  /* Follower section */
+  .follower {
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-bottom: 100px;
+  }
+  
+  .all-subscriber {
+    display: flex;
+    padding-left: 15%;
+    box-shadow: 10px 10px 40px gray;
+    width: 80%;
+  }
+  
+  .subscriber-box {
+    width: 33.33%;
+  }
+  
+  /* Blog section */
+  .blog-heading {
+    color: gray;
+    text-align: center;
+  }
+  
+  .blog-description {
+    color: gray;
+    text-align: center;
+  }
+  
+  .blog-section {
+    padding: 30px 0 80px 0;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  .blog-description {
+    color: gray;
+    text-align: center;
+    padding: 0 292px;
+  }
+  
+  .blog-box {
+    display: flex;
+  }
+  
+  .all-box {
+    box-shadow: 0px 0px 15px gray;
+    padding: 20px 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 14px;
+    width: 33.33%;
+    margin-top: 2%;
+  }
+  
+  .all-box a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16x;
+  }
+  
+  .all-box img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  /* Contact Us */
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+  }
+  
+  .contact-us {
+    border-radius: 5px;
+    padding: 5% 25%;
+  }
+  
+  .contact-us h2 {
+    color: gray;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+  }
+  
+  footer h1 {
+    color: white;
+  }
+  
+  footer p {
+    color: white;
+  }
+  
